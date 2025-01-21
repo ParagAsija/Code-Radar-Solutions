@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define LIMIT 6
+#define LIMIT 20
 
 int main(){
     char str[LIMIT];
