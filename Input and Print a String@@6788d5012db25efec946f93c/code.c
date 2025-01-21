@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define LIMIT 5
+#define LIMIT 6
 
 int main(){
     char str[LIMIT];
     fgets(str , LIMIT , stdin);
-    printf("%s",str);
+    printf("You entered: %s",str);
     return 0;
     }
