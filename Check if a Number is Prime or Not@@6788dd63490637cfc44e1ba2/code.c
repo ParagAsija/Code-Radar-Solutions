@@ -3,7 +3,7 @@
 int main(){
     int a;
     scanf("%d", &a);
-    sum=0
+    sum=;
     for(int i=2;i<a;i++){
         if(a%i==0)
         {printf("Prime");
