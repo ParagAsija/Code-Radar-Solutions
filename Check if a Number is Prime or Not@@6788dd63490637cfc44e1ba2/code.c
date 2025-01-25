@@ -4,13 +4,13 @@ int main(){
     int a;
     scanf("%d", &a);
     sum=0;
-    for(int i=2;i<a;i++){
+    for(int i=2;i<10;i++){
         if(a%i==0)
         {printf("Prime");
             sum+=1;
             break;}
     }
-    // if(sum==1){
-    //     printf("Not Prime");
-    // }
+    if(sum==1){
+        printf("Not Prime");
+    }
 }
