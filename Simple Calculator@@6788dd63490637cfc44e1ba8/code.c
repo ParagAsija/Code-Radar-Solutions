@@ -14,9 +14,13 @@ int main(){
     else if(c=='*'){
         printf("%f", a*b);
     }
-    else{if(b==0){
-        printf("Error")
-    }else{
+    else{
+        if(b==0)
+        {
+        printf("Error");
+    }
+    else
+    {
         printf("%f", a/b);
     }
     }
