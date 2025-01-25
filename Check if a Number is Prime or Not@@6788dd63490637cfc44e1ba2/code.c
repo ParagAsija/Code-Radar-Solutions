@@ -6,12 +6,15 @@ int main(){
     int sum=0;
     for(int i=2;i<a;i++){
         if(a%i==0)
-        {printf("Prime");
+        {
             sum+=1;
             break;
             }
     }
-    if(sum==1){
+    if(sum==1 && a>1){
         printf("Not Prime");
+    }
+    else{
+        printf("Prime");
     }
 }
