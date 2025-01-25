@@ -10,7 +10,7 @@ int main(){
             sum+=1;
             break;}
     }
-    if(sum==1){
-        printf("Not Prime");
-    }
+    // if(sum==1){
+    //     printf("Not Prime");
+    // }
 }
