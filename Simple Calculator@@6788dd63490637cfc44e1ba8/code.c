@@ -6,7 +6,7 @@ int main(){
     scanf("%d %d", &a, &b);
     scanf("%c", &c);
     if(c=='+'){
-        printf("8");
+        printf("%d", a+b);
     }
     else if(c=='-'){
         printf("%d", a-b);
