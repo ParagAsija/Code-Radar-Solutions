@@ -2,32 +2,14 @@
 
 int main(){
     int month;
-    scanf("%d", month);
-    switch(month){
-        case 1: printf("31");
-        break;
-        case 2: printf("31");
-        break;
-        case 3: printf("31");
-        break;
-        case 4: printf("31");
-        break;
-        case 5: printf("31");
-        break;
-        case 6: printf("31");
-        break;
-        case 7: printf("31");
-        break;
-        case 8: printf("31");
-        break;
-        case 9: printf("31");
-        break;
-        case 10: printf("31");
-        break;
-        case 11: printf("31");
-        break;
-        case 12: printf("31");
-        break;
-        default: printf("Invalid month");
+    scanf("%d", &month);
+    if (month ==(1 || 3 || 5 || 7 || 8 || 10 || 12)){
+        printf("31");
+    }
+    else if(month>=1 && month<=12){
+        printf("Invalid month");
+    }
+    else{
+        printf("30");
     }
 }
