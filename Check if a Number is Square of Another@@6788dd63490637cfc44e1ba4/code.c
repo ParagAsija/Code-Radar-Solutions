@@ -3,7 +3,7 @@
 int main(){
     int a,b;
     scanf("%d %d", &a, &b);
-    int c = b*b;
+    int c = pow(b,2);
     if(a == c){
         printf("Yes");
     }
