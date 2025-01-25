@@ -12,7 +12,7 @@ int main(){
         printf("%d", a-b);
     }
     else if(c=='*'){
-        printf("%f", a*b);
+        printf("%d", a*b);
     }
     else{
         if(b==0)
@@ -21,7 +21,7 @@ int main(){
     }
     else
     {
-        printf("%f", a/b);
+        printf("%d", a/b);
     }
     }
 }
