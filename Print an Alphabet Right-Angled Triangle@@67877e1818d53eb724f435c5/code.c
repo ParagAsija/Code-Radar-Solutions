@@ -3,9 +3,11 @@
 int main(){
     int n;
     scanf("%d", &n);
-    for(char c='A'; c<=n;c++){
-        for(char d='A';d<=c;d++){
-            printf("%c ", d);
+    for(int i = 0; i < n; i++){
+        char ch = 'A';
+        for(int j = 0; j < i+ 1; i++){
+            printf("%c ", ch);
+            ch++;
         }
         printf("\n");
     }
