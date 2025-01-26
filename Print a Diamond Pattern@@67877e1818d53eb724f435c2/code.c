@@ -4,8 +4,8 @@ int main(){
     int n;
     scanf("%d", &n);
     for(int i=1;i<=n;i++){
-        for(int j=1;j<=2n-1;j+=2){
-            if((j<=((n-i)/2)) || (j>=((n+i)/2))){
+        for(int j=1;j<=2*n-1;j+=2){
+            if((j<=((2*n-(i+1))/2)) || (j>=((2*n-1+i)/2))){
                 printf(" ");
             }
             else{
@@ -15,8 +15,8 @@ int main(){
     printf("\n");
     }
     for(int i=n-1;i>=1;i--){
-        for(int j=1;j<=2n-1;j+=2){
-            if((j<=((n-i)/2)) || (j>=((n+i)/2))){
+        for(int j=1;j<=2*n-1;j+=2){
+            if((j<=((2*n-(1+i))/2)) || (j>=((2*n-1+i)/2))){
                 printf(" ");
             }
             else{
