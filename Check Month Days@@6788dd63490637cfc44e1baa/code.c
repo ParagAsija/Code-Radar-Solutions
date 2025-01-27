@@ -12,7 +12,7 @@ int main(){
     else if(month==2){
         printf("28");
     }
-    else if(month ==(4 || 6 || 9 || 11 )){
-        printf("30");
+    else {
+        printf("");
     }
 }
