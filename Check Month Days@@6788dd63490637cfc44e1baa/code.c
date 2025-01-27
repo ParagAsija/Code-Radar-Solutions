@@ -13,6 +13,6 @@ int main(){
         printf("28");
     }
     else {
-        printf("");
+        printf("30");
     }
 }
