@@ -19,18 +19,18 @@ int main(){
         }
         printf("\n");
     }
-    for(int i=n;i>1;i--){
-        for(int j = (2*k)-1; j>=1; j--){
-            if(j<=(max_stars-case_stars)/2){
-                printf(" ");
-            }
-            else if(j>(max_stars+case_stars)/2){
-                printf(" ");
-            }
-            else{
-                printf("*");
-            }
-        }
-        printf("\n");
-    }
+    // for(int i=n;i>1;i--){
+    //     for(int j = (2*k)-1; j>=1; j--){
+    //         if(j<=(max_stars-case_stars)/2){
+    //             printf(" ");
+    //         }
+    //         else if(j>(max_stars+case_stars)/2){
+    //             printf(" ");
+    //         }
+    //         else{
+    //             printf("*");
+    //         }
+    //     }
+    //     printf("\n");
+    // }
 }
