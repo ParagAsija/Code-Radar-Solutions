@@ -3,7 +3,7 @@
 int main(){
     int month;
     scanf("%d", &month);
-    if (month ==(1 || 3 || 5  || 8 || 10 || 12)){
+    if (month ==(1 || 3 || 5 || 7  || 10 || 12)){
         printf("31");
     }
     else if(month>12 || month<1){
