@@ -38,4 +38,6 @@ int main(){
     while(
         b>7;
     );
+    printf("Hexadecimal: %s",hexa );
+    printf("Octal: %s", octa);
 }
