@@ -12,7 +12,7 @@ int main(){
     }
     while(
         a>0;
-    )
+    );
     if(binary[0] == 0){
         printf("Not Set");
     }
