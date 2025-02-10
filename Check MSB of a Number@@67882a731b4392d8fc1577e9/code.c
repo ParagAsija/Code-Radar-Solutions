@@ -11,9 +11,9 @@ while(a>0){
     i++;
 }
 if(binary[i-1]){
-    printf("Set");
+    printf("Not Set");
 }
 else{
-    printf("Not Set");
+    printf("Set");
 }
 }
