@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int a, b;
-    scanf("%d %d", &a, &b);
+    long long unsigned a;
+    int b;
+    scanf("%llu %d", &a, &b);
     int i = 0;
     int binary[100];
 
