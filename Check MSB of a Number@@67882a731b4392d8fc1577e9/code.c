@@ -10,7 +10,7 @@ while(a>0){
     a/=2;
     i++;
 }
-if(binary[i-1]== 0){
+if(binary[i] == 0){
     printf("Not Set");
 }
 else{
