@@ -1,16 +1,22 @@
 #include <stdio.h>
 
 int main(){
-    int n;
-    scanf("%d", &n);
-    char binary[100];
-    int q = n;
-    for(int i = 1;i>=0;i){
-        binary += q%2;
-        q/=2;
-        if(q==0){
-            break;
-        }
+    int a;
+    scanf("%d", &a);
+    int binary[100];
+    int i=0;
+    do{
+        binary[i] = a%2;
+        a/=2;
+        i++;
     }
-    
+    while(
+        a>0;
+    )
+    if(binary[0] == 0){
+        printf("Not Set");
+    }
+    else{
+        printf("Set");
+    }
 }
