@@ -3,7 +3,7 @@
 int main() {
 int a;
 scanf("%d", &a);
-int binary[1000];
+int binary[10000];
 int i = 0;
 while(a>0){
     binary[i] = a%2;
