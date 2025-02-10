@@ -3,6 +3,10 @@
 int main() {
 long long unsigned a;
 scanf("%llu", &a);
+if(a==0){
+    printf("Not Set\n");
+    return 0;
+}
 int binary[64];
 int i = 0;
 while(a>0){
@@ -16,4 +20,5 @@ if(binary[i-1] == 0){
 else{
     printf("Set");
 }
+return 0;
 }
