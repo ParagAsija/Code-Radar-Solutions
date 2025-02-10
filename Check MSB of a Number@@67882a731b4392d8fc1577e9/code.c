@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-int a;
-scanf("%d", &a);
-int binary[10000];
+long long unsigned a;
+scanf("%llu", &a);
+int binary[64];
 int i = 0;
 while(a>0){
     binary[i] = a%2;
