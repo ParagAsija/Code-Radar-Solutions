@@ -13,7 +13,7 @@ int main(){
             sum+=1;
             break;
         }
-        else if(list[i] > list[i-1]){
+        else if(i == n-1 && (list[i] > list[i-1])){
         sum += 1;
         break;
         }
