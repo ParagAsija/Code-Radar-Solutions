@@ -16,5 +16,5 @@ int main(){
             max = list[i];
         }
     }
-    printf("%d %d", &min , &max);
+    printf("%d %d", min , max);
 }
