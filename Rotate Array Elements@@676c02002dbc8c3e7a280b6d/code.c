@@ -20,7 +20,7 @@ int main(){
         mid += 1;
     }
     for(int i = 0; i<a;i++){
-        printf("%d", rotated_list[i]);
+        printf("%d\n", rotated_list[i]);
     }
 
 }
