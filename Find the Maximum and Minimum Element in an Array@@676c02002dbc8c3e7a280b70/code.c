@@ -10,10 +10,10 @@ int main(){
     }
     for(int i = 1; i<n; i++){
         if(list[i] < min){
-            min = list[i]
+            min = list[i];
         }
         if(list[i] > max){
-            max = list[i]
+            max = list[i];
         }
     }
     printf("%d %d", &min , &max);
