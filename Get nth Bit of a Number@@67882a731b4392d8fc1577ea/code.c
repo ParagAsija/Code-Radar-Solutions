@@ -12,6 +12,10 @@ int main(){
         a/=2;
         i++;
     }
+    if(b>i-1){
+        printf(0);
+    }
+    else{
     printf("%d", binary[b]);
-
+    }
 }
