@@ -4,7 +4,7 @@ int main(){
     scanf("%d", &n);
     int list[n];
     int sum = 0;
-    int series = 0;
+    int series = 1;
     for(int i = 0; i<n; i++){
         scanf("%d", &list[i]);
     }
