@@ -15,7 +15,7 @@ int main(){
         rotated_list[list[st]];
         st += 1;
     }
-    for(j=k; j<a; j++){
+    for(int j=k; j<a; j++){
         rotated_list[list[mid]];
         mid += 1;
     }
