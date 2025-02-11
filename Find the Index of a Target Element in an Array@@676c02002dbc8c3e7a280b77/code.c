@@ -17,7 +17,7 @@ int main(){
         }
         index += 1;
     }
-    if(not = 0){
+    if(not == 0){
         printf("-1");
     }
     else{
