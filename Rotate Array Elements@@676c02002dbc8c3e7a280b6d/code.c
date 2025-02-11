@@ -12,11 +12,11 @@ int main(){
     int mid = 0;
     int rotated_list[a];
     for(int j = 0; j<k; j++){
-        rotated_list[list[st]];
+        rotated_list[j] = list[st];
         st += 1;
     }
     for(int j=k; j<a; j++){
-        rotated_list[list[mid]];
+        rotated_list[j] = list[mid];
         mid += 1;
     }
     for(int i = 0; i<a;i++){
