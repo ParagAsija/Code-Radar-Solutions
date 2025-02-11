@@ -7,6 +7,14 @@ int main(){
     for(int i =0 ; i<n; i++){
         scanf("%d", &list[i]);
     }
+    int not_same = 0;
+    for(int i = 0; i<n; i++){
+        if(list[i]!=list[i+1]){
+            not_same += 1;
+            break;
+        }
+    }
+    if(not_same == 1){
     for(int j = 1; j<n; j++){
         if(list[j]>max){
             max = list[j];
@@ -28,3 +36,12 @@ if(list2[i] > max2){
     }
     printf("%d", max2);
 }
+else{
+    printf("-1");
+}
+
+
+}
+
+
+
