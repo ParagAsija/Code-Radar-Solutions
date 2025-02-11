@@ -8,10 +8,14 @@ int main(){
     for(int i = 0; i<n; i++){
         scanf("%d", &list[i]);
     }
-    for(int i = 1; i<n-1; i++){
-        if(list[i] > list[i-1] && list[i] > list[i+1]){
+    for(int i = 1; i<n; i++){
+        if(i<n-1 && (list[i] > list[i-1] && list[i] > list[i+1])){
             sum+=1;
             break;
+        }
+        else if(list[i] > list[i-1]){
+        sum += 1;
+        break;
         }
         series += 1;
     }
