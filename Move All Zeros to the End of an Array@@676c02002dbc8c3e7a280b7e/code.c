@@ -13,7 +13,7 @@ int main(){
         }
     }
     for(int i = count ; i<n; i++){
-        array_new[len_array_new] = 0;
+        array_new[count] = 0;
     }
     for(int i = 0; i<n; i++){
         printf("%d ", array_new[i])
