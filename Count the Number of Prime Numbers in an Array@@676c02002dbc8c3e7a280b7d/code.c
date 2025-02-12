@@ -11,7 +11,7 @@ int main(){
             }
         else{
         for(int j = 2; j<array[i]; j++){
-            else if(array[i]%j==0){
+            if(array[i]%j==0){
                 count_of_non_prime += 1;
                 break;
             }
