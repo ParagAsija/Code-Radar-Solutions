@@ -16,6 +16,6 @@ int main(){
         array_new[count] = 0;
     }
     for(int i = 0; i<n; i++){
-        printf("%d ", array_new[i])
+        printf("%d ", array_new[i]);
     }
 }
