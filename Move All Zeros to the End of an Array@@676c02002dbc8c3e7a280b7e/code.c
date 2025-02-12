@@ -3,7 +3,7 @@ int main(){
     int n;
     scanf("%d", &n);
     int arr[n];
-    int array_new[];
+    int array_new[n];
     int count = 0;
     for(int i = 0; i<n; i++){
         scanf("%d", &arr[i]);
@@ -12,8 +12,7 @@ int main(){
             count ++;
         }
     }
-    len_array_new = sizeof(array_new)/sizeof(array_new[0])
-    for(int i = len_array_new ; i<n; i++){
+    for(int i = count ; i<n; i++){
         array_new[len_array_new] = 0;
     }
     for(int i = 0; i<n; i++){
