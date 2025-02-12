@@ -11,11 +11,16 @@ int main(){
     if(list[i]<0){
         list[i] = list[i]-(2*list[i]);
     }
+    if(list[i] == 0){
+        sum_list[i] = 0;
+    }
+    else(
     while(list[i]>0){
         sum += list[i]%10;
         list[i]/=10;
         sum_list[i] = sum;
     }
+    )
     }
     for(int i = 0; i < n; i++){
         printf("%d ", sum_list[i]);
