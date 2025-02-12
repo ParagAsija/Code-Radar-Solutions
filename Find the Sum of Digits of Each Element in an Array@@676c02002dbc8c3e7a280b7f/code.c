@@ -9,7 +9,7 @@ int main(){
     scanf("%d", &list[i]);
     int sum = 0;
     if(list[i]<0){
-        list[i] = list[i]-(2*list[i])
+        list[i] = list[i]-(2*list[i]);
     }
     while(list[i]>0){
         sum += list[i]%10;
