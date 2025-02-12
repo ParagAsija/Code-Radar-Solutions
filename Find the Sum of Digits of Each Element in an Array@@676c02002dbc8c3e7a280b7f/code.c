@@ -8,7 +8,7 @@ int main(){
     for(int i = 0; i < n; i++){
     scanf("%d", &list[i]);
     int sum = 0;
-    while(list[i]>0){
+    while(list[i]>=0){
         sum += list[i]%10;
         list[i]/=10;
         sum_list[i] = sum;
