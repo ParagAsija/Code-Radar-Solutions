@@ -6,7 +6,7 @@ int main(){
         int roll;
         char name;
         float marks;
-        scanf("%d %c %f", &roll, &name, &marks);
-        printf("%d %c %f\n", roll , name, marks);
+        scanf("%d %c %.1f", &roll, &name, &marks);
+        printf("%d %c %.1f\n", roll , name, marks);
     }
 }
