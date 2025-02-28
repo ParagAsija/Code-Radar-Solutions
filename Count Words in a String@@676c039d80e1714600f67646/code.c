@@ -6,7 +6,7 @@ int main(){
     scanf("%s", &input);
     int words = 0;
     for(int i = 0; i<strlen(input); i++){
-        if(input[i] = ' ' || input[i] = '\t'){
+        if(input[i] = ' ' || input[i] == '\t'){
             words ++;
         }
     }
