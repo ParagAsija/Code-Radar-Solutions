@@ -2,8 +2,8 @@
 #include <string.h>
 
 int main(){
- char input[];
- char rev_input[];
+ char input[100];
+ char rev_input[100];
  scanf("%s", &input);
  for(int i = strlen(input) - 1; i >=0; i--){
     rev_input += input[i];
