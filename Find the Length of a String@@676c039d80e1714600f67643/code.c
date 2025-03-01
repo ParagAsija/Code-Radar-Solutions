@@ -2,11 +2,10 @@
 #include <string.h>
 
 int main(){
-    char input[];
-    int length = sizeof(input)/sizeof(input[1]);
+    char input[100];
     int count = 0;
     scanf("%s", input);
-    for(int i = 0; i<length; i++ ){
+    while(input[count]!='\0'){
         count += 1;
     }
     printf("%d", count);
