@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(){
-    char input[100];
+    char input[];
     int length = sizeof(input)/sizeof(input[1]);
     int count = 0;
     scanf("%s", input);
