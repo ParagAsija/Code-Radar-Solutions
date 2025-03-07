@@ -8,7 +8,7 @@ int main(){
     scanf("%c\n %c" , &inp, &rep);
     for(int i = 0 ; i< strlen(input); i++){
         if(input[i] == inp){
-            input[i] == rep;
+            input[i] = rep;
         }
     }
     printf("%s", input);
