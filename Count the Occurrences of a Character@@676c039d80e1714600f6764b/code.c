@@ -6,7 +6,7 @@ int main(){
     fgets(input , 100, stdin);
     scanf("%c", &a);
     int occur = 0;
-    for(int i = 0; i< strlen(input), i++){
+    for(int i = 0; i< strlen(input); i++){
         if(input[i] == a){
             occur ++ ;
         }
