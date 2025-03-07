@@ -4,8 +4,8 @@
 int main(){
     char input[100];
     int count = 0;
-    scanf("%s", input);
-    while(input[count]!='\0' || input[count] == ' '){
+    fgets(input, 100, stdin);
+    while(input[count]!='\0'){
         count += 1;
     }
     printf("%d", count);
