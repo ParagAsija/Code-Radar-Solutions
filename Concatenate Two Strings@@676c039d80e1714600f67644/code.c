@@ -7,7 +7,7 @@ int main(){
     fgets(b , 100 , stdin);
     int c = strlen(a);
     for(int i = 0; i<strlen(b);i++){
-        a[c] = b[i];
+        a[c-1] = b[i];
         c++;
     }
     printf("%s", a);
