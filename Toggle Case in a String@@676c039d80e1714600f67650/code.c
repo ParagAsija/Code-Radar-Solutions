@@ -7,10 +7,10 @@ int main(){
     fgets(input , 100 , stdin);
     for(int i = 0 ; i< strlen(input) ; i++){
         if(input[i] == islower(input[i])){
-            toupper(input[i]);
+            input[i] = toupper(input[i]);
         }
         else{
-            tolower(input[i]);
+           input[i] = tolower(input[i]);
         }
     }
     printf("%s", input);
