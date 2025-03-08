@@ -4,7 +4,7 @@
 int main(){
     char input[100];
     fgets(input, 100, stdin);
-    int count[100] = {0};
+    int count[256] = {0};
     char letter[100];
     char c;
     for(int i = 0; i< strlen(input); i++){
