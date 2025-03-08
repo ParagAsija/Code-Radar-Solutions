@@ -4,8 +4,8 @@
 int main(){
     char input[100];
     fgets(input, 100, stdin);
-    int count[256] = {0};
-    char letter[100];
+    int count[];
+    char letter[];
     char c;
     for(int i = 0; i< strlen(input); i++){
         c = input[i];
@@ -22,7 +22,7 @@ int main(){
     }
     int max = count[0];
     int index = 0;
-    for(int i = 0; i < strlen(count); i++){
+    for(int i = 0; i < (count); i++){
         if(count[i]>max){
             max = count[i];
             index = i;
