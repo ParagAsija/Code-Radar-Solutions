@@ -3,7 +3,7 @@
 
 int main(){
     char input[100];
-    scanf("%s", &input);
+    fgets(input, 100 , stdin);
     int words = 0;
     for(int i = 0; i<strlen(input); i++){
         if(input[i] = ' ' && input[i+1]!=' ' && input[i+1]!='\0'){
