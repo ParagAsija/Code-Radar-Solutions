@@ -6,7 +6,7 @@ int main(){
     char input[100];
     fgets(input , 100 , stdin);
     for(int i = 0 ; i< strlen(input) ; i++){
-        if(input[i] == islower(input[i])){
+        if(islower(input[i])){
             input[i] = toupper(input[i]);
         }
         else{
