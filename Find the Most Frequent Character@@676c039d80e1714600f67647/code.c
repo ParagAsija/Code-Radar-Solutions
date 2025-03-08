@@ -28,5 +28,5 @@ int main(){
             index = i;
         }
     }
-printf("%d", letter[index]);
+printf("%c", letter[index]);
 }
