@@ -45,7 +45,7 @@ int main() {
     }
 
     int wordCount = countWords(str);
-    printf(%d", wordCount);
+    printf("%d", wordCount );
 
     return 0;
 }
