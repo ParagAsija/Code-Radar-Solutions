@@ -1,14 +1,52 @@
+// #include <stdio.h>
+// #include <string.h>
+
+// int main(){
+//     char input[100];
+//     scanf("%s", &input);
+//     int words = 0;
+//     for(int i = 0; i<strlen(input); i++){
+//         if(input[i] = ' ' || input[i] == '\t'){
+//             words ++;
+//         }
+//     }
+//     printf("%d", words);
+// }
+
 #include <stdio.h>
 #include <string.h>
 
-int main(){
-    char input[100];
-    scanf("%s", &input);
-    int words = 0;
-    for(int i = 0; i<strlen(input); i++){
-        if(input[i] = ' ' || input[i] == '\t'){
-            words ++;
+// Function to count the number of words in a string
+int countWords(char str[]) {
+    int count = 0;
+    int length = strlen(str);
+
+    for (int i = 0; i < length; i++) {
+        if (str[i] == ' ' && str[i+1] != ' ' && str[i+1] != '\0') {
+            count++;
         }
     }
-    printf("%d", words);
+
+    // Increment count for the last word
+    if (length > 0 && str[0] != ' ') {
+        count++;
+    }
+
+    return count;
+}
+
+int main() {
+    char str[100];
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+
+    // Remove trailing newline character
+    if ((strlen(str) > 0) && (str[strlen(str) - 1] == '\n')) {
+        str[strlen(str) - 1] = '\0';
+    }
+
+    int wordCount = countWords(str);
+    printf("Number of words: %d\n", wordCount);
+
+    return 0;
 }
