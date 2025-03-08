@@ -37,7 +37,6 @@ int countWords(char str[]) {
 
 int main() {
     char str[100];
-    printf("Enter a string: ");
     fgets(str, sizeof(str), stdin);
 
     // Remove trailing newline character
@@ -46,7 +45,7 @@ int main() {
     }
 
     int wordCount = countWords(str);
-    printf("Number of words: %d\n", wordCount);
+    printf(%d", wordCount);
 
     return 0;
 }
