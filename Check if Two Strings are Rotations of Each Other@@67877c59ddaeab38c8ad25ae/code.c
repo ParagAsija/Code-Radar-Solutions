@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(){
-    int arr1[100], arr2[100];
+    char arr1[100], arr2[100];
     scanf("%s %s", &arr1, &arr2);
     int out = 1;
     int k = strlen(arr1);
