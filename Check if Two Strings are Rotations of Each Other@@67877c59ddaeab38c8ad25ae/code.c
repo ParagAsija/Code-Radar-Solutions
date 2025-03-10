@@ -7,12 +7,17 @@ int main(){
     for(int i = strlen(arr1) - 1 ; i>=0; i--){
     int j = 0;
     arr1[j] = arr1[i];
-    char out[10] = 'Yes';
+    int out = 1;
     if(arr1[j] != arr2[j]){
-        out[10] = 'No';
+        out = 0;
         break;
     }
     j++;
     }
-    printf("%s", out[10]);
+    if(out){
+        printf("Yes");
+    }
+    else{
+        printf("No");
+    }
 }
