@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 int bubbleSort(int arr[] ,int n){
     int out[n];
@@ -14,14 +14,14 @@ int bubbleSort(int arr[] ,int n){
     return out[n];
 }
 
-int main(){
-    int n;
-    scanf("%d", &n);
-    int arr[n];
-    for(int i = 0; i <n; i++){
-        scanf("%d", &arr[i]);
-    }
-    bubbleSort(arr, n);
-    printArray(arr, n);
-    return 0;
-}
+// int main(){
+//     int n;
+//     scanf("%d", &n);
+//     int arr[n];
+//     for(int i = 0; i <n; i++){
+//         scanf("%d", &arr[i]);
+//     }
+//     bubbleSort(arr, n);
+//     printArray(arr, n);
+//     return 0;
+// }
