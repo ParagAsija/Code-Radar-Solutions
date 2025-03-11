@@ -10,12 +10,12 @@ int main(){
     }
     int first = INT_MIN , second = INT_MIN;
     for(int i = 0; i < n; i++){
-        if(int[i] > first){
+        if(input[i] > first){
             second = first;
-            first = int[i];
+            first = input[i];
         }
-        else if(int[i] > second && int[i] != first){
-            second = int[i];
+        else if(input[i] > second && input[i] != first){
+            second = input[i];
         }
     }
     if (second == INT_MIN || n == 1){
