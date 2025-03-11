@@ -17,6 +17,12 @@ int main(){
             out[i] = inp[st];
             st ++;
         }
+        else if(k > n){
+            if(i < (k-n)){
+                out[i] = inp[st];
+                st ++;
+            }
+        }
         else{
             out[i] = inp[end];
             end++;
