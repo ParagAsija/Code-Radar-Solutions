@@ -22,6 +22,6 @@ int main(){
         printf("-1");
     }
     else{
-        printf("%d", &second);
+        printf("%d", second);
     }
 }
