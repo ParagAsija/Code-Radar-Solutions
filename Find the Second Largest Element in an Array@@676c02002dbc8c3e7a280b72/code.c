@@ -1,47 +1,27 @@
 #include <stdio.h>
+#include <limits.h>
+
 int main(){
     int n;
     scanf("%d", &n);
-    int list[n];
-    int max = list[0];
-    for(int i =0 ; i<n; i++){
-        scanf("%d", &list[i]);
+    char input[n];
+    for(int i = 0; i < n; i++){
+        scanf("%d", &input[i]);
     }
-    int not_same = 0;
-    for(int i = 0; i<n; i++){
-        if(list[i]!=list[i+1]){
-            not_same += 1;
-            break;
+    int first = INT_MIN , second = INT_MIN;
+    for(int i = 0; i < n; i++){
+        if(int[i] > first){
+            second = first;
+            first = int[i];
+        }
+        else if(int[i] > second && int[i] != first){
+            second = int[i];
         }
     }
-    if(not_same == 1){
-    for(int j = 1; j<n; j++){
-        if(list[j]>max){
-            max = list[j];
-        }
+    if (second == INT_MIN || n == 1){
+        printf("-1");
     }
-    int list2[n-1];
-    int num = 0;
-    for(int i = 0; i<n; i++){
-        if(list[i] != max){
-            list2[num] = list[i];
-            num += 1;
-        }
+    else{
+        printf("%d", &second);
     }
-    int max2 = list2[0];
-    for(int i = 1; i < n-1 ; i++){
-if(list2[i] > max2){
-    max2 = list2[i];
 }
-    }
-    printf("%d", max2);
-}
-else{
-    printf("-1");
-}
-
-
-}
-
-
-
