@@ -13,7 +13,7 @@ int main(){
     int st = n - k;
     int end = 0;
     for(int i = 0; i < n; i++){
-        if(i >= n - k){
+        if(i < k){
             out[i] = inp[st];
             st ++;
         }
