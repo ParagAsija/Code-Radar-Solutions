@@ -14,16 +14,14 @@ int main(){
     int st1 = k - n;
     int end = 0;
     for(int i = 0; i < n; i++){
-        if(i < k){
+        if(i < k && k < n){
             out[i] = inp[st];
             st ++;
         }
-        else if(k > n){
-            if(i < (k-n)){
+        else if(i < (k-n) && k > n){
                 st1 ++;
                 out[i] = inp[st1];
             }
-        }
         else{
             out[i] = inp[end];
             end++;
