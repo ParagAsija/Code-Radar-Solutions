@@ -9,7 +9,7 @@ int main(){
     char output[100];
     int j = 0;
     for(int i = 0; i < length; i++){
-        if(isConsonant(input) == false){
+        if(!(isConsonant(input))){
             output[j] = input[i];
             printf("%d", &output[j]);
             j++;
