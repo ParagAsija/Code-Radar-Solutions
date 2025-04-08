@@ -13,7 +13,7 @@ int main(){
     for(int i = 0; i<N;i++){
         int out = 1;
         if(i== N-1){
-            printf("%d ", &arr[N-1]);
+            printf("%d ", arr[N-1]);
         }
         for(int j = i+1;j<N;j++){
             if(arr[j] > arr[i]){
@@ -22,7 +22,7 @@ int main(){
             }
         }
         if(out == 1){
-            printf("%d ", &arr[i]);
+            printf("%d ", arr[i]);
         }
         }
     }
