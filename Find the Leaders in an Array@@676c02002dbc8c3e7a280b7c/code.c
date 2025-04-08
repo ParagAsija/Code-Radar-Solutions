@@ -1,31 +1,28 @@
 #include <stdio.h>
 
 int main(){
-    int n;
-    scanf("%d", &n);
-    int input[n];
-    for(int i = 0; i < n; i++){
-    scanf("%d", &input[i]);
+    int N;
+    scanf("%d", &N);
+    int arr[N];
+    for(int i = 0; i <N;i++){
+        scanf("%d", &arr[i]);
     }
-    int out[n];
-    for(int i = 0; i < n; i++){
-        for(int j = i+1; j<n; j++){
-        if((input[i] < input[j] && i < n -1) || (i == n -1)){
-        out[i] = 1;
-            break;
+    if(N==1){
+        printf("%d ", &arr[0]);
+    }
+    for(int i = 0; i<N;i++){
+        int out = 1;
+        if(i==n-1){
+            printf("%d ", &arr[n-1]);
         }
-        }
-
-        }
-    if(n == 1){
-            printf("%d", input[0]);
-            break;
-        }
-    else{
-        for(int i = 0; i < n; i++){
-            if(out[i] == 1){
-                printf("%d", input[i]);
+        for(int j = i+1;j<n;j++){
+            if(arr[j] > arr[i]){
+                out = 0;
+                break;
             }
         }
+        if(out == 1){
+            printf("%d ", &arr[i]);
+        }
+        }
     }
-}
