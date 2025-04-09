@@ -8,8 +8,8 @@ void selectionSort(char arr[][100], int n){
                 min_index = j;
             }
         }
-        char temp[100] = arr[j];
-        arr[j] = arr[min_index];
+        char temp[100] = arr[i];
+        arr[i] = arr[min_index];
         arr[min_index] = temp[100];
     }
 }
