@@ -8,7 +8,8 @@ void selectionSort(char arr[][100], int n){
                 min_index = j;
             }
         }
-        strcpy(char temp[100], arr[i]);
+        char temp[100];
+        strcpy(temp, arr[i]);
         strcpy(arr[i], arr[min_index]);
         strcpy(arr[min_index], temp);
     }
