@@ -6,9 +6,9 @@ void selectionSort(int arr[], int n){
                 min_index = j;
             }
         }
-        int temp = i;
+        int temp = arr[i];
         arr[i] = arr[min_index];
-        arr[min_index] = arr[temp];
+        arr[min_index] = temp;
     }
 }
 
