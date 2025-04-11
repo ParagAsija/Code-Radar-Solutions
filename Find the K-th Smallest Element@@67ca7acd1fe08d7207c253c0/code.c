@@ -12,6 +12,6 @@ void selectionSort(int arr[], int n){
 }
 
 int kthSmallest(int arr[], int n; int k){
-    selectionSort(arr, n);
+    selectionSort(int arr[], int n);
     return arr[k-1];
 }
